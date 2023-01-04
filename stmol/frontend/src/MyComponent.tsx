@@ -47,7 +47,7 @@ class MyComponent extends StreamlitComponentBase<any> {
         <a href={link}>{link}</a>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/3dmol@1.8.0/build/3Dmol-min.js" async></script>
+        <script src="https://raw.githubusercontent.com/Ojas-Singh/stmol/master/3Dmol-min.js" async></script>
      
 
         <div style={{height: "400px", width: "400px", position: "relative"}} className='viewer_3Dmoljs' data-pdb='2POR' data-backgroundcolor="red" data-style='stick' >
